@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body{
+            text-align: center;
+            color: aliceblue;
+        }
+        h1{
+            color: rgb(128, 224, 251);
+            margin-top: 45px;
+        }
+        form{
+            padding: 15px;
+        }
+        #lab{
+            color: rgb(234, 157, 42);
+        }
+        #firstdiv{
+            position: absolute;
+
+        }
+        #img1{
+            height: 80px;
+            float: left;
+            padding: 15px;
+            margin-left: 15pc;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="https://media2.giphy.com/media/xVn3ZmKrKIOLS/giphy.gif?cid=ecf05e47dpsvyygbmse80etat203b6g82688crzstq5fk1v3&rid=giphy.gif&ct=g">
+    <img id="img1" src="https://media1.giphy.com/media/26BGDQxDCZDFHW5Ne/giphy.gif?cid=ecf05e47s1i54v7vye657pchxdgjbghxvgjoj3f6elh7y3zr&rid=giphy.gif&ct=g" alt="">
+    
+    <div id="firstdiv">
+    <h1>Weather App</h1>
+    <form action="/" method="post">
+        <label id="lab" for="city">City Name:</label>
+        <input id="city" type="text" name="cityName">
+        <button type="submit">Go</button>
+    </form>
+    </div>
+</body>
+</html>
